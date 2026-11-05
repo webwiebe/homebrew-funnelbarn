@@ -1,16 +1,16 @@
 class Funnelbarn < Formula
   desc "Self-hosted web analytics server"
   homepage "https://github.com/wiebe-xyz/funnelbarn"
-  version "0.6.156"
+  version "0.6.157"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://webwiebe.nl/brew/funnelbarn-darwin-amd64-0.6.156.tar.gz"
-      sha256 "0ffe1821afd4151cb9c47449c4f97cc4b2f0a1cd46a9600e59585ef336956a5c"
+      url "https://webwiebe.nl/brew/funnelbarn-darwin-amd64-0.6.157.tar.gz"
+      sha256 "9b312fb18b93f9e1de06386a2cde9cdb073a7b12f31941c0c7919a27fa37a3a1"
     elsif Hardware::CPU.arm?
-      url "https://webwiebe.nl/brew/funnelbarn-darwin-arm64-0.6.156.tar.gz"
-      sha256 "dbbcabec5fdb9a51940be90769ca1ba6e21686cf50f06cfd91d80143744ad44e"
+      url "https://webwiebe.nl/brew/funnelbarn-darwin-arm64-0.6.157.tar.gz"
+      sha256 "de90d9aad320b2e18bee60c1574e014f7439ab2ef701295008d1fc1c18bf1049"
     end
   end
 
